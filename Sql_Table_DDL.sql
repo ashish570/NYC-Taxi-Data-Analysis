@@ -1,3 +1,4 @@
+'''sql
 /****** Object:  Table [dbo].[tip]    ******/
 SET ANSI_NULLS ON
 GO
@@ -29,3 +30,4 @@ CREATE TABLE [dbo].[tripSpeed](
 ) ON [PRIMARY]
 GO
 
+'''
