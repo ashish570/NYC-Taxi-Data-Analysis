@@ -1,4 +1,4 @@
-
+<h1> NYC Taxi Data Analytics</h1>
 <p align = "center">
 <h1>Problem Statement</h1>
 <ul><li> Data Location is a web url (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page), Data needs to be downloaded to local environment and saved as raw files in cloud location.</li>
@@ -11,21 +11,18 @@
 <li>  Above insights needs to be stored in a relational database</li>
 <li>  Rest API would serve the insights to end user from the relational database. </li>
 <ul>
+</p>
 
 <h1 style="background-color:powderblue;"> Solution Approach : </h1>
-<p style="background-color:tomato;">I'm considering Microsoft Azure stack services for different compute and storage.
-Soulution has 4 technical pillars <p>
+<p >I'm considering Microsoft Azure stack services for different compute and storage.Soulution has 4 technical pillars <p>
 <ul> <li>Compute : I'm using Databricks's infrastructure for ETL and Insights on pyspark,scala and spark sql</li> 
 <li> Raw Storage  : For raw layer I'm using databrick's file system(In a production scenario I'd have choosen ADLS which has a good connectivity with Azure services for ETL and building representational layer on top of the data.</li>
-<li> Rekational Storage : I've choosen Microsoft SQL Server on Azure for this use case , where I'm hosting my two tables for trip_speed and max_tip.</li>
+<li> Relational Storage : I've choosen Microsoft SQL Server on Azure for this use case , where I'm hosting my two tables for trip_speed and max_tip.</li>
 <li> End User accessibility : I"m making the data available to end user through a rest api endoint hosted on my local machine.</li>
 </ul>
 
 I have used databricks community addition for most of the scrathing on dataframes building and data cleansing.
+![architecture diagram](architecture diagram.png)
 
-<p align="center">
-  <img src="/architecture diagram" width="350" title="hover text">
- </p>
 
-</p>
 
