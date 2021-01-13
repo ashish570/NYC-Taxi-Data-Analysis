@@ -22,14 +22,15 @@
 </ul>
 
 I have used databricks community addition for most of the scrathing on dataframes building and data cleansing.
-<p "style="text-align: center"> Architecture Diagram </p>
+<p "style="text-align: center"> Architecture Diagram 
 ![architecture diagram](https://github.com/ashish570/ExactAssignment/blob/main/architecture_diagram.png)
+</p>
 
 <h1 style="background-color:powderblue;align= 'Left'"> Execution Approach : </h1>
 
 
 <ul> <li> <b>Exact Assignment - ETL.ipynb</b> : is a ipynb which can be directly imported to databricks cluster and ran after installing wget library</li> 
-<li> Once the data is written to rawFiles folder in DBFS , the second notebook <b>Exact Assignment - Insights.ipynb</b> can be run to perform analytics on the data.Make sure you spin a Database connection for an external SQL SERVER Database to store the query results.</li>
+<li> Once the data is written to rawFiles folder in DBFS , the second notebook <b>Exact Assignment - Insights.ipynb</b> can be run to perform analytics on the data.Make sure you spin a Database and setup a connection for an external SQL SERVER Database to store the query results.</li>
 <li> Once the Data is ready in SQL Tables, Code Folder's <b>api.py</b> can be executed which internally calls the db_models.py and Config.py </li>
 <li> On the local host the below end points can be hit , which in the backend will hit the sqlserver database and fetch the results.
         <ul><li> /api/tip/2020/01/max</li>
