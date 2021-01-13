@@ -22,7 +22,7 @@
 </ul>
 
 I have used databricks community addition for most of the scrathing on dataframes building and data cleansing.
-![architecture diagram](architecture diagram.png)
+![architecture diagram](https://github.com/ashish570/ExactAssignment/blob/main/architecture%20diagram.png)
 
 
 
