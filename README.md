@@ -1,7 +1,7 @@
 <h1> NYC Taxi Data Analytics</h1>
 <p align = "center">
 <h1>Problem Statement</h1>
-<ul><li> Data Location is a web url (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page), Data needs to be downloaded to local environment and saved as raw files in cloud location.</li>
+<ul><li> Data Location is a web url (https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page), Data needs to be downloaded to local environment and saved as raw files in cloud location. For the purpose of this project only 2020 data for Yellow Taxis is relevant </li>
 <li>  Data has a lot of anomalies, which needs cleanup in terms of datatype definition,duplicate purging, removal of irrelavant data etc.</li>
 <li>  The cleaned data in above step needs to be saved in Parquet file format.</li>
 <li>  By reading this data stored in parquet file format, insights needs to be driven which constitue of </li>
