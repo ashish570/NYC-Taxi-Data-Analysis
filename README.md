@@ -22,9 +22,9 @@
 </ul>
 
 I have used databricks community addition for most of the scrathing on dataframes building and data cleansing.
-<p "style="text-align: center"> Architecture Diagram 
+Architecture Diagram 
 ![architecture diagram](https://github.com/ashish570/ExactAssignment/blob/main/architecture_diagram.png)
-</p>
+
 
 <h1 style="background-color:powderblue;align= 'Left'"> Execution Approach : </h1>
 
@@ -35,7 +35,7 @@ I have used databricks community addition for most of the scrathing on dataframe
 <li> On the local host the below end points can be hit , which in the backend will hit the sqlserver database and fetch the results.
         <ul><li> /api/tip/2020/01/max</li>
               <li> /api/tips/2020/max </li>
-                <li>GET  /api/speed/2020/01/01/max </li></ul>
+                <li>  /api/speed/2020/01/01/max </li></ul>
 <li> Fin!</li>              
 </ul>
 
