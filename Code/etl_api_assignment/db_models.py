@@ -81,5 +81,4 @@ class TripSpeed(Model):
 
         return results
 
-# Uncomment below line to create tables in SQL Server
 # Model.metadata.create_all(engine)
